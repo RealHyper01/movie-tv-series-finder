@@ -35,7 +35,7 @@ async function search(){
         if(!query) return
 
         let finalInput = encodeURIComponent(query)
-        let api = `https://www.omdbapi.com/?apikey=e5b6558a&t=${finalInput}`
+        let api = `https://www.omdbapi.com/?apikey=c7591d8c&t=${finalInput}`
 
         let response = await fetch(api)
         let data = await response.json()
